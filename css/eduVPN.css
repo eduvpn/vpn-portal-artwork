@@ -11,7 +11,7 @@ a {
 
 ul.menu {
     /* same height as background image of the h1 */
-    height: 119px;
+    height: 120px;
 }
 
 ul.menu li.active a, ul.menu li.active span {
@@ -25,7 +25,7 @@ ul.menu li.active a, ul.menu li.active span {
         float: right;
         color: transparent; /* hide header text */
         width: 300px;
-        height: 119px;
+        height: 120px;
         background-image: url("../../img/eduVPN/eduVPN.png");
         background-repeat: no-repeat;
         background-position: 100% 0%;
