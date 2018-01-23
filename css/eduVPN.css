@@ -6,7 +6,7 @@ h1, h2, h3, h4 {
 }
 
 a {
-    color: #df7f0c;
+    color: #ed6b06;
 }
 
 ul.menu {
@@ -15,7 +15,7 @@ ul.menu {
 }
 
 ul.menu li.active a, ul.menu li.active span {
-    background-color: #df7f0c;
+    background-color: #ed6b06;
 }
 
 /* only show the logo when width is >= 800px */
