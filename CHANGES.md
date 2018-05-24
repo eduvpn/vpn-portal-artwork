@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.2.2 (2018-05-24)
+- support "customFooter"
+
 ## 1.2.1 (2018-01-23)
 - update color of stylesheet to match color in updated logo
 
