@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.2.3 (...)
+- use "Certificates" instead of "Configurations"
+
 ## 1.2.2 (2018-05-24)
 - support "customFooter"
 
