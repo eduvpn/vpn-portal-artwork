@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.2.3 (...)
+## 1.2.3 (2018-09-10)
 - use "Certificates" instead of "Configurations"
 
 ## 1.2.2 (2018-05-24)
