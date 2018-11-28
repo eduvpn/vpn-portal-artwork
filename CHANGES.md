@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.3.0 (2018-11-28)
+- implement SAML logout support in `base.twig` template
+
 ## 1.2.3 (2018-09-10)
 - use "Certificates" instead of "Configurations"
 
