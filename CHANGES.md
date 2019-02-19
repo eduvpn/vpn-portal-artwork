@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.0 (...)
+- update for PHP templates
+- add configuration file
+
 ## 1.3.0 (2018-11-28)
 - implement SAML logout support in `base.twig` template
 

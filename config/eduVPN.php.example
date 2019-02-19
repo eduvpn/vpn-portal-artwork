@@ -1,0 +1,5 @@
+<?php
+
+return [
+    'barColor' => [0xdf, 0x7f, 0x0c],
+];
