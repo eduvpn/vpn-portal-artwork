@@ -16,7 +16,8 @@ ul.menu li.active a, ul.menu li.active span {
 
 /* Statistics Page */
 table.stats tbody td:not(:empty) {
-    background-color: #ed6b06;
+    /* the same color as the buttons just hurts the eyes... */
+    background-color: #df7f0c;
 }
 
 /* only show the logo when width is >= 800px */
