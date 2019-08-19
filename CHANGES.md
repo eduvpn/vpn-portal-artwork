@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.0.1 (2019-08-19)
+- update for new HTML/CSS stats
+
 ## 2.0.0 (2019-04-01)
 - update for PHP templates
 - add configuration file
