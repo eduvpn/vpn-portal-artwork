@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.0.2 (2019-08-20)
+- change the color for the graphs, hurts the eyes less
+
 ## 2.0.1 (2019-08-19)
 - update for new HTML/CSS stats
 
