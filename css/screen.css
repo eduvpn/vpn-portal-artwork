@@ -1,0 +1,88 @@
+/** 
+ * eduVPN Custom CSS
+ */
+
+a, a:hover {
+    color: #ed6b06;
+}
+
+nav {
+    background-image: url("../../img/eduVPN/eduvpn_banner_small.png");
+    background-repeat: no-repeat;
+    background-position: 50% 0.5em;
+    padding-top: calc(50px + 1em);
+	width: 100%;
+}
+
+nav ul li a {
+    color: #212529;
+}
+
+nav ul li.active a {
+    color: #df7f0c;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #df7f0c;
+}
+
+main h1 {
+    color: #df7f0c;
+}
+
+main p.banner {
+	text-align: center;
+	font-weight: 300;
+	padding: 0.5em;
+	font-size: 150%;
+	color: #df7f0c;
+	font-style: italic;
+}
+
+/* the configuration page needs more space for details/summary */
+details {
+	margin: 1em 0;
+}
+
+details summary {
+    color: #df7f0c;
+	margin: 1em 0;
+}
+
+details summary:hover {
+    text-decoration: underline;
+}
+
+/* The application logo grid */
+div.apps {
+	text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1em 0;
+}
+
+div.apps a {
+    width: 250px;
+    margin: 1em auto;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 1em;
+}
+
+div.apps span {
+    display: block;
+    padding: 1em 0 0 0;
+}
+
+/* Statistics Page */
+table.stats tbody td:not(:empty) {
+    /* the same color as the buttons just hurts the eyes... */
+    background-color: #df7f0c;
+}
+
+@media (min-width: 800px) {
+    div.apps {
+        grid-template-columns: 1fr 1fr;
+    }
+}
