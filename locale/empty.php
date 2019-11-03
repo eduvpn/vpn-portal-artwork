@@ -9,6 +9,7 @@
 
 return [
     'Continue...' => '',
+    'Download' => '',
     'Download and/or install the eduVPN application for your device as found on the "Home" screen;' => '',
     'Getting Started' => '',
     'If you have any problems or questions, please contact <a href="mailto:eduvpn-support@lists.geant.org">eduvpn-support@lists.geant.org</a>.' => '',
