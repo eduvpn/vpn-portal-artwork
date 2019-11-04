@@ -9,7 +9,7 @@
 
 return [
     'Continue...' => 'واصل...',
-    //'Download' => '',
+    'Download' => 'تحميل',
     'Download and/or install the eduVPN application for your device as found on the "Home" screen;' => 'حمل و/او نزل تطبيق eduVPN على جهازك كما هو موجود على "الصفحة الرئيسية"؛',
     'Getting Started' => 'ابدء',
     'If you have any problems or questions, please contact <a href="mailto:eduvpn-support@lists.geant.org">eduvpn-support@lists.geant.org</a>.' => 'إذا كان لديك أي مشاكل أو أسئلة، اتصل من فضلك بـ <a href="mailto:eduvpn-support@lists.geant.org">eduvpn-support@lists.geant.org</a>.',
