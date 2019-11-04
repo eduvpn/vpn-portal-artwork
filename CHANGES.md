@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.1.0 (...)
+- update for new portal UI templates
+- add eduVPN theme translations
+- update "Home" screen to display application download links
+- have a eduVPN specific documentation page
+- initially hide the manual configuration creation, only for advanced users...
+
 ## 2.0.2 (2019-08-20)
 - change the color for the graphs, hurts the eyes less
 
