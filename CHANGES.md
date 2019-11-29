@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.1.1 (...)
+- add Estionian translation
+
 ## 2.1.0 (2019-11-04)
 - update for new portal UI templates
 - add eduVPN theme translations
