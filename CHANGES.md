@@ -1,7 +1,9 @@
 # Changelog
 
-## 2.1.1 (...)
+## 2.1.1 (2020-01-20)
 - add Estionian translation
+- size the profile select box to the size of the number of items, auto 
+  selecting the first if there is only one
 
 ## 2.1.0 (2019-11-04)
 - update for new portal UI templates
