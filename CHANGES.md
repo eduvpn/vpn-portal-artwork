@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.1.2 (2020-01-27)
+- point the Mac App Store for macOS application
+
 ## 2.1.1 (2020-01-20)
 - add Estionian translation
 - size the profile select box to the size of the number of items, auto 
