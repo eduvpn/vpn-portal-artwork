@@ -14,7 +14,7 @@
 		<img width="200" height="29" src="img/eduVPN/Windows.png" alt="Windows">
 		<span><?=$this->t('Download'); ?></span>
 	</a>
-	<a target="_blank" href="https://app.eduvpn.org/mac/eduVPN_latest.dmg">
+	<a target="_blank" href="https://apps.apple.com/app/eduvpn-client/id1317704208">
 		<img width="200" height="29" src="img/eduVPN/macOS.png" alt="macOS">
 		<span><?=$this->t('Download'); ?></span>
 	</a>
