@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.1.3 (...)
+- add German translation
+
 ## 2.1.2 (2020-01-27)
 - point the Mac App Store for macOS application
 
