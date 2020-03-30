@@ -10,7 +10,7 @@
 return [
     'Continue...' => 'Jätka...',
     'Download' => 'Lae alla',
-    'Download and/or install the eduVPN application for your device as found on the "Home" screen;' => 'Lae alla ja/või paigalda oma seadmele avalehelt sobiv eduVPN rakendus;',
+    'Download and/or install the eduVPN application for your device as found on the "Home" page;' => 'Lae alla ja/või paigalda oma seadmele avalehelt sobiv eduVPN rakendus;',
     'Getting Started' => 'Alustamine',
     'If you have any problems or questions, please contact <a href="mailto:eduvpn-support@lists.geant.org">eduvpn-support@lists.geant.org</a>.' => 'Probleemid ja küsimused saada palun aadressile <a href="mailto:eduvpn-support@lists.geant.org">eduvpn-support@lists.geant.org</a>.',
     'In order to start using eduVPN, follow the steps below.' => 'eduVPN kasutuselevõtuks järgi alltoodud juhiseid.',

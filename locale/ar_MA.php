@@ -10,7 +10,7 @@
 return [
     'Continue...' => 'واصل...',
     'Download' => 'تحميل',
-    'Download and/or install the eduVPN application for your device as found on the "Home" screen;' => 'حمل و/او نزل تطبيق eduVPN على جهازك كما هو موجود على "الصفحة الرئيسية"؛',
+    'Download and/or install the eduVPN application for your device as found on the "Home" page;' => 'حمل و/او نزل تطبيق eduVPN على جهازك كما هو موجود على "الصفحة الرئيسية"؛',
     'Getting Started' => 'ابدء',
     'If you have any problems or questions, please contact <a href="mailto:eduvpn-support@lists.geant.org">eduvpn-support@lists.geant.org</a>.' => 'إذا كان لديك أي مشاكل أو أسئلة، اتصل من فضلك بـ <a href="mailto:eduvpn-support@lists.geant.org">eduvpn-support@lists.geant.org</a>.',
     'In order to start using eduVPN, follow the steps below.' => 'للبدء باستعمال eduVPN، اتبع الخطوات التالية.',

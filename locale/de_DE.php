@@ -10,7 +10,7 @@
 return [
     'Continue...' => 'Weiter...',
     'Download' => 'Herunterladen',
-    'Download and/or install the eduVPN application for your device as found on the "Home" screen;' => 'Laden Sie die eduVPN-Anwendung passend für Ihr Gerät von der Startseite herunter;',
+    'Download and/or install the eduVPN application for your device as found on the "Home" page;' => 'Laden Sie die eduVPN-Anwendung passend für Ihr Gerät von der Startseite herunter;',
     'Getting Started' => 'Anfang',
     'If you have any problems or questions, please contact <a href="mailto:eduvpn-support@lists.geant.org">eduvpn-support@lists.geant.org</a>.' => 'Sollten Sie irgendwelche Fragen oder Probleme haben, schreiben Sie uns eine E-Mail: <a href="mailto:eduvpn-support@lists.geant.org">eduvpn-support@lists.geant.org</a>.',
     'In order to start using eduVPN, follow the steps below.' => 'Um mit eduVPN zu starten folgen Sie den nachfolgenden Anweisungen.',

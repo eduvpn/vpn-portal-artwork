@@ -7,7 +7,7 @@
     </p>
     <ol>
         <li>
-<?=$this->t('Download and/or install the eduVPN application for your device as found on the "Home" screen;'); ?> 
+<?=$this->t('Download and/or install the eduVPN application for your device as found on the "Home" page;'); ?> 
         </li>
         <li>
 <?=$this->t('Launch the eduVPN application and follow the instructions.'); ?>
