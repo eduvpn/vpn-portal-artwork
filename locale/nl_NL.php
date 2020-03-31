@@ -12,7 +12,7 @@ return [
     'Download' => 'Downloaden',
     'Download and/or install the eduVPN application for your device as found on the "Home" page;' => 'Download en/of installer de eduVPN applicatie voor jouw device van de "Home" pagina;',
     'Getting Started' => 'Beginnen',
-    'If you have any problems or questions, please contact <a href="mailto:eduvpn-support@lists.geant.org">eduvpn-support@lists.geant.org</a>.' => 'Als je problemen of vragen hebt, neem dan contact op met <a href="mailto:eduvpn-support@lists.geant.org">eduvpn-support@lists.geant.org</a>.',
+    'If you have any problems or questions, please contact your institute.' => 'Als je problemen of vragen hebt, neem dan contact op met je instelling.',
     'In order to start using eduVPN, follow the steps below.' => 'Om gebruik te maken van eduVPN, volg de stappen hieronder.',
     'Launch the eduVPN application and follow the instructions.' => 'Start de eduVPN applicatie en volg de instructies.',
     'On the "Configurations" page, advanced users can manually download VPN configurations.' => 'Op de "Configuraties" pagina kunnen gevorderde gebruikers handmatig een VPN-configuratie downloaden.',

@@ -12,7 +12,7 @@ return [
     'Download' => 'Herunterladen',
     'Download and/or install the eduVPN application for your device as found on the "Home" page;' => 'Laden Sie die eduVPN-Anwendung passend für Ihr Gerät von der Startseite herunter;',
     'Getting Started' => 'Anfang',
-    'If you have any problems or questions, please contact <a href="mailto:eduvpn-support@lists.geant.org">eduvpn-support@lists.geant.org</a>.' => 'Sollten Sie irgendwelche Fragen oder Probleme haben, schreiben Sie uns eine E-Mail: <a href="mailto:eduvpn-support@lists.geant.org">eduvpn-support@lists.geant.org</a>.',
+    //'If you have any problems or questions, please contact your institute.' => '',
     'In order to start using eduVPN, follow the steps below.' => 'Um mit eduVPN zu starten folgen Sie den nachfolgenden Anweisungen.',
     'Launch the eduVPN application and follow the instructions.' => 'Starten von eduVPN und folgen der Anleitung.',
     'On the "Configurations" page, advanced users can manually download VPN configurations.' => 'Auf der Konfigurations-Seite können Nutzer alternative Konfigurationen für OpenVPN erzeugen und herunterladen.',

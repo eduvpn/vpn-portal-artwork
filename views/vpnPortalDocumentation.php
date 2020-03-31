@@ -14,6 +14,6 @@
         </li>
     </ol>
     <p>
-<?=$this->t('If you have any problems or questions, please contact <a href="mailto:eduvpn-support@lists.geant.org">eduvpn-support@lists.geant.org</a>.'); ?>
+<?=$this->t('If you have any problems or questions, please contact your institute.'); ?>
     </p>
 <?php $this->stop('content'); ?>
