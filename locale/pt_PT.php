@@ -12,7 +12,7 @@ return [
     'Download' => 'Descarregar',
     'Download and/or install the eduVPN application for your device as found on the "Home" page;' => 'Descarregue e/ou instale a aplicação eduVPN adequada ao seu dispositivo, encontrada na página "Home"',
     'Getting Started' => 'Começando',
-    //'If you have any problems or questions, please contact your institute.' => '',
+    'If you have any problems or questions, please contact your institute.' => 'Se tiver algum problema ou dúvida, por favor contate o seu instituição',
     'In order to start using eduVPN, follow the steps below.' => 'Para começar a usar a eduVPN, siga os passos abaixo',
     'Launch the eduVPN application and follow the instructions.' => 'Inicie a aplicação eduVPN e siga as instruções.',
     'On the "Configurations" page, advanced users can manually download VPN configurations.' => 'Na página "Configurações", utilizadores avançados podem descarregar manualmente as configurações VPN.',
