@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.1.4 (...)
+- add Portugese translation
+
 ## 2.1.3 (2020-03-23)
 - add German translation
 
