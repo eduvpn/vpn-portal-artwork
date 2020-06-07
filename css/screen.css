@@ -1,237 +1,236 @@
 /** 
  * eduVPN Custom CSS
  */
-
 body {
-    font-family:"Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    color: #505050;
-    background-color: #222;
-    font-size: 18px;
+  font-family: "Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  color: #505050;
+  background-color: #222;
+  font-size: 18px;
 }
 
 h1, h2, h3, h4 {
-    color: #000;
-    font-weight: bold;
+  color: #000;
+  font-weight: bold;
 }
 
 div.content h1, div.content h2, div.content h3 {
-    margin: 0.5em 0;
+  margin: 0.5em 0;
 }
 
 label {
-    color: #000;
+  color: #000;
 }
 
 table.tbl th {
-    color: #000;
+  color: #000;
 }
 
 h1 {
-    font-size: 48px;
+  font-size: 48px;
 }
 
 a, a:hover {
-    color: #216aed;
-    font-weight: bold;
+  color: #216aed;
+  font-weight: bold;
 }
 
 div.page {
-    display: block;
-    background-color: #fff;
+  display: block;
+  background-color: #fff;
 }
 
 ul.languageSwitcher {
-    display: inline-block;
+  display: inline-block;
 }
 
 ul.languageSwitcher li button {
-    background-color: #222;
-    color: #fff;
-    margin-bottom: 0;
-    font-weight: normal;
+  background-color: #222;
+  color: #fff;
+  margin-bottom: 0;
+  font-weight: normal;
 }
 
 form.logout {
-    display: inline;
-    font-size: 85%;
-    margin: 0;
+  display: inline;
+  font-size: 85%;
+  margin: 0;
 }
 
 form.logout button {
-    color: #fff;
-    background-color: #222;
-    border: 0;
-    font-weight: bold;
+  color: #fff;
+  background-color: #222;
+  border: 0;
+  font-weight: bold;
 }
 
 input[type=text], input[type=password], button, select, textarea {
-    border-radius: 0.5em;
-    padding: 0.5em;
+  border-radius: 0.5em;
+  padding: 0.5em;
 }
 
 p.plain, p.warning, p.error {
-    border-radius: 0.5em;
+  border-radius: 0.5em;
 }
 
 p.warning, p.warning a {
-    background-color: #ff9900;
-    color: #fff;
+  background-color: #ff9900;
+  color: #fff;
 }
 
 span.warning, span.warning a {
-    color: #ff9900;
+  color: #ff9900;
 }
 
 table.tbl {
-/*    border-radius: 0.5em;*/
-/*    border-collapse: separate;*/
+  /*    border-radius: 0.5em;*/
+  /*    border-collapse: separate;*/
 }
 
 table.tbl ul li {
-    padding-bottom: 0.4em;
+  padding-bottom: 0.4em;
 }
 
 nav {
-    background-image: url("../../img/eduVPN/logo.png");
-    background-repeat: no-repeat;
-    background-size: 169px 50px;
-    width: 100%;
-    background-position: 1% 50%;
-    padding: 1em 0 1em 15em;
-    min-height: calc(50px + 2em);
+  background-image: url("../../img/eduVPN/logo.png");
+  background-repeat: no-repeat;
+  background-size: 169px 50px;
+  width: 100%;
+  background-position: 2% 50%;
+  padding: 1em 0 1em 15em;
+  min-height: calc(50px + 2em);
 }
 
 nav:lang(ar-MA) {
-    background-position: 99% 50%;
-    padding: 1em 15em 1em 0;
+  background-position: 98% 50%;
+  padding: 1em 15em 1em 0;
 }
 
 form.logout button {
-    padding: 0 0 0 0.5em;
+  padding: 0 0 0 0.5em;
 }
 
 nav ul {
-    margin: 0 auto;
-    display: block;
+  margin: 0 auto;
+  display: block;
 }
 
 nav ul li {
-    display: inline-block;
-    padding: 0;
-    margin: 1em;
+  display: inline-block;
+  padding: 0;
+  margin: 1em;
 }
 
 nav ul li a {
-    padding-bottom: 0.5em;
-    color: #216aed;
-    font-weight: bold;
+  padding-bottom: 0.5em;
+  color: #216aed;
+  font-weight: bold;
 }
 
 nav ul li.active a {
-    color: #216aed;
-    font-weight: bold;
-    border-bottom: 4px solid #216aed;
+  color: #216aed;
+  font-weight: bold;
+  border-bottom: 4px solid #216aed;
 }
-    
+
 nav ul li a:hover {
-    text-decoration: none;
-    color: #216aed;
+  text-decoration: none;
+  color: #216aed;
 }
 
 main {
-    background-color: #e24301;
-    padding: 0;
+  background-color: #e24301;
+  padding: 0;
 }
 
 div.content {
-/*    border-radius: 0.5em 0.5em 0 0;*/
-    background-color: #fff;
-    padding: 1.5em 1.5em 1.5em 1.5em;
-    min-height: 60vh;
+  /*    border-radius: 0.5em 0.5em 0 0;*/
+  background-color: #fff;
+  padding: 1.5em 1.5em 1.5em 1.5em;
+  min-height: 60vh;
 }
 
 main div.content h1 {
-    /* hide old page title in templates... */
-    display: none;
+  /* hide old page title in templates... */
+  display: none;
 }
 
 main h1 {
-    color: #fff;
-    padding-top: 0.5em;
-    background-color: #e24301;
+  color: #fff;
+  padding-top: 0.5em;
+  background-color: #e24301;
 }
 
 button {
-    border-radius: 0.5em;
-    background-color: #216aed;
-    color: #fff;
-    font-weight: bold;
-    padding: 0.5em 1em;
-    border: 0;
+  border-radius: 0.5em;
+  background-color: #216aed;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  border: 0;
 }
 
 button.warning {
-    background-color: #ff9900;
+  background-color: #ff9900;
 }
 
 main p.banner {
-	text-align: center;
-	font-weight: 300;
-	padding: 0.5em;
-	font-size: 150%;
-	color: #e24301;
-	font-style: italic;
+  text-align: center;
+  font-weight: 300;
+  padding: 0.5em;
+  font-size: 150%;
+  color: #e24301;
+  font-style: italic;
 }
 
 /* the configuration page needs more space for details/summary */
 details {
-	margin: 1em 0;
+  margin: 1em 0;
 }
 
 details summary {
-    color: #216aed;
-    font-weight: bold;
-	margin: 1em 0;
+  color: #216aed;
+  font-weight: bold;
+  margin: 1em 0;
 }
 
 details summary:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* The application logo grid */
 div.apps {
-	text-align: center;
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 1em 0;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 1em 0;
 }
 
 div.apps a {
-    margin: 1em auto;
-    padding: 1em;
+  margin: 1em auto;
+  padding: 1em;
 }
 
 div.apps span {
-    display: block;
-    padding: 1em 0 0 0;
+  display: block;
+  padding: 1em 0 0 0;
 }
 
 /* Statistics Page */
 table.stats tbody td:not(:empty) {
-    /* the same color as the buttons just hurts the eyes... */
-    background-color: #9a2e00;
+  /* the same color as the buttons just hurts the eyes... */
+  background-color: #9a2e00;
 }
 
 footer {
-    color: #fff;
+  color: #fff;
 }
 
 footer a {
-    color: #e24301;
+  color: #e24301;
 }
 
 @media (min-width: 800px) {
-    div.apps {
-        grid-template-columns: 4fr 4fr 4fr 4fr;
-    }
+  div.apps {
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+  }
 }
