@@ -1,5 +1,7 @@
 # Web Fonts
 
+Open Sans is licensed under the Apache 2.0 license by Google.
+
 To use web fonts we use the `.woff2` format. We create them like this, on a 
 modern Fedora installation:
 
@@ -13,6 +15,7 @@ We need the following fonts:
 
 * `OpenSans-Regular.ttf`
 * `OpenSans-Bold.ttf`
+* `OpenSans-Italic.ttf`
 * `OpenSans-BoldItalic.ttf`
 
 Copy them to the location where you want to write the `.woff2` files:
@@ -21,15 +24,7 @@ Copy them to the location where you want to write the `.woff2` files:
     $ cp /usr/share/fonts/open-sans/* ${HOME}/fonts
     $ cd ${HOME}/fonts
     $ for f in *; do woff2_compress ${f}; done
-    $ rm ^.ttf
-
-Now you have the `.woff2` files!
-
-    $ woff2_compress /usr/share/fonts/open-sans/OpenSans-Regular.ttf 
-    $ woff2_compress /usr/share/fonts/open-sans/OpenSans-Bold.ttf 
-    $ woff2_compress /usr/share/fonts/open-sans/OpenSans-BoldItalic.ttf 
-
-This will put the `.woff2` files in the current directory.
+    $ rm *.ttf
 
 Now, for the CSS. We use the `local` as well in case the user already has the
 font installed on their system, no need to download it in that case!
