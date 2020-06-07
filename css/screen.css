@@ -1,8 +1,33 @@
-/** 
- * eduVPN Custom CSS
- */
+@font-face {
+    font-family: "Open Sans";
+    src: local("Open Sans"), url("../../fonts/eduVPN/OpenSans-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: local("Open Sans Bold"), url("../../fonts/eduVPN/OpenSans-Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: local("Open Sans Italic"), url("../../fonts/eduVPN/OpenSans-Italic.woff2") format("woff2");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: local("Open Sans Bold Italic"), url("../../fonts/eduVPN/OpenSans-BoldItalic.woff2") format("woff2");
+    font-weight: bold;
+    font-style: italic;
+}
+
 body {
-  font-family: "Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: "Open Sans", sans-serif;
   color: #505050;
   background-color: #222;
   font-size: 18px;
