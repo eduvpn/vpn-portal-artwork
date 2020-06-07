@@ -1,6 +1,5 @@
-<?php $this->layout('base', ['activeItem' => 'home']); ?>
+<?php $this->layout('base', ['activeItem' => 'home', 'pageTitle' => $this->t('Home')]); ?>
 <?php $this->start('content'); ?>
-<h1><?=$this->t('Home'); ?></h1>
 <?php if ($motdMessage): ?>
     <p class="plain"><?=$this->batch($motdMessage['message'], 'escape|nl2br'); ?></p>
 <?php endif; ?>
@@ -11,20 +10,20 @@
 
 <div class="apps">
 	<a target="_blank" href="https://app.eduvpn.org/windows/eduVPNClient_latest.exe">
-		<img width="200" height="29" src="img/eduVPN/Windows.png" alt="Windows">
-		<span><?=$this->t('Download'); ?></span>
+		<img width="64" height="64" src="img/eduVPN/app/Windows.png" alt="Windows">
+		<span><?=$this->t('Windows'); ?></span>
 	</a>
 	<a target="_blank" href="https://apps.apple.com/app/eduvpn-client/id1317704208">
-		<img width="200" height="29" src="img/eduVPN/macOS.png" alt="macOS">
-		<span><?=$this->t('Download'); ?></span>
+		<img width="64" height="64" src="img/eduVPN/app/macOS.png" alt="macOS">
+		<span><?=$this->t('macOS'); ?></span>
 	</a>
 	<a target="_blank" href="https://play.google.com/store/apps/details?id=nl.eduvpn.app">
-		<img width="200" height="29" src="img/eduVPN/Android.png" alt="Android">
-		<span><?=$this->t('Download'); ?></span>
+		<img width="64" height="64" src="img/eduVPN/app/Android.png" alt="Android">
+		<span><?=$this->t('Android'); ?></span>
 	</a>
 	<a target="_blank" href="https://apps.apple.com/app/eduvpn-client/id1292557340">
-		<img width="200" height="29" src="img/eduVPN/iOS.png" alt="iOS">
-		<span><?=$this->t('Download'); ?></span>
+		<img width="64" height="64" src="img/eduVPN/app/iOS.png" alt="iOS">
+		<span><?=$this->t('iOS'); ?></span>
 	</a>
 </div> <!-- /apps -->
 

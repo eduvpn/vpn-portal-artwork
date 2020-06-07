@@ -1,6 +1,5 @@
-<?php $this->layout('base', ['activeItem' => 'documentation']); ?>
+<?php $this->layout('base', ['activeItem' => 'documentation', 'pageTitle' => $this->t('Documentation')]); ?>
 <?php $this->start('content'); ?>
-    <h1><?=$this->t('Documentation'); ?></h1>
     <h2><?=$this->t('Getting Started'); ?></h2>
     <p>
 <?=$this->t('In order to start using eduVPN, follow the steps below.'); ?>

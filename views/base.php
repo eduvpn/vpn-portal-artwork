@@ -4,11 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<?php if (!isset($activeItem)): ?>
-    <title>eduVPN</title>
-<?php else: ?>
-    <title>eduVPN - <?=$this->t(ucfirst($activeItem)); ?></title>
-<?php endif; ?>
+    <title>eduVPN - <?=$this->e($pageTitle); ?></title>
     <link href="<?=$this->e($requestRoot); ?>css/bootstrap-reboot.min.css" media="screen" rel="stylesheet">
     <link href="<?=$this->e($requestRoot); ?>css/screen.css" media="screen" rel="stylesheet">
     <link href="<?=$this->e($requestRoot); ?>css/eduVPN/screen.css" media="screen" rel="stylesheet">
@@ -16,16 +12,19 @@
 <body>
     <header>			
         <?=$this->insert('languageSwitcher'); ?>
+        <?=$this->insert('logoutButton'); ?>
     </header>
     <div class="page">
         <nav>
 <?php if (isset($activeItem)): ?>
             <?=$this->insert('menu', ['activeItem' => $activeItem]); ?>
 <?php endif; ?>
-        	<?=$this->insert('logoutButton'); ?>
         </nav>
         <main>
-            <?=$this->section('content'); ?>
+            <h1><?=$this->e($pageTitle); ?></h1>
+            <div class="content">
+                <?=$this->section('content'); ?>
+            </div>
         </main>
     </div> <!-- /page -->
     <footer>
