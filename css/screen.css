@@ -32,11 +32,35 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  font-size: 18px;
   background-color: #ededed;
   margin: 0;
   padding: 0;
   width: 100%;
-  line-height: 1.5;
+  line-height: 1.4;
+  color: #505050;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 38px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h1, h2, h3, h4 {
+  color: #000;
+  margin: 0.5em 0 0 0;
+  line-height: 1.25;
 }
 
 a, summary {
@@ -49,6 +73,10 @@ a:hover {
   text-decoration: underline;
 }
 
+p {
+  margin: 0.5em 0 0 0;
+}
+
 button, input, textarea, select {
   font-family: inherit;
   font-size: 1em;
@@ -56,8 +84,7 @@ button, input, textarea, select {
 }
 
 pre, code {
-  font-size: 125%;
-  /* XXX font size?! */
+  font-size: inherit;
 }
 
 summary {
@@ -166,19 +193,39 @@ form.frm label {
   display: block;
 }
 
-form.frm button {
-  margin: 1em 0;
+form.frm {
+  margin: 0.5em auto;
+  width: 100%;
 }
 
-form.frm {
-  margin: 1em auto;
-  width: 100%;
+form.frm button {
+  margin: 0.5em 0;
+  border: 0;
+  border-radius: 2em;
+  color: #fff;
+  background-color: #216aed;
+  padding: 0.5em 1.5em;
+  font-weight: bold;
+}
+
+form.frm button.warning {
+  background-color: #ff9900;
 }
 
 form.frm select, form.frm input[type=text], form.frm input[type=password], form.frm textarea {
   width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  display: block;
+  margin: 0.5em 0;
 }
 
+/*main div.auth input {*/
+/*  display: block;*/
+/*  margin: 1em 0;*/
+/*  width: 100%;*/
+/*}*/
 fieldset {
   border: 0;
   margin: 0;
@@ -186,6 +233,7 @@ fieldset {
 }
 
 table.tbl {
+  margin: 0.5em 0 0 0;
   width: 100%;
   border: 1px solid #ddd;
   /* XXX color! */
@@ -214,11 +262,19 @@ table.tbl ul {
   padding: 0 0 0 1em;
 }
 
+table.tbl form.frm {
+  margin: 0;
+}
+
+table.tbl form.frm button {
+  margin: 0;
+}
+
 main h1 {
   background-color: #e24301;
   color: #fff;
   text-align: center;
-  padding: 1em 0 4em 0;
+  padding: 1em 0 3em 0;
   margin: 0;
 }
 
@@ -237,21 +293,8 @@ main div.content {
   background-color: #fff;
 }
 
-main div.content button {
-  border: 0;
-  border-radius: 2em;
-  color: #fff;
-  background-color: #216aed;
-  padding: 0.8em 2em;
-  font-weight: bold;
-}
-
-main div.content button.warning {
-  background-color: #ff9900;
-}
-
 p.warning, p.error, p.plain {
-  padding: 1.5em;
+  padding: 1.2em;
   border-radius: 0.5em;
 }
 
@@ -292,22 +335,9 @@ p.error {
   background-color: #ed3415;
 }
 
-main div.content input, main div.content select, main div.content textarea {
-  border: 1px solid #ddd;
-  /* XXX color for border! */
-  border-radius: 0.5em;
-  padding: 0.8em;
-}
-
 main div.auth {
   margin: 0 auto;
   max-width: 20em;
-}
-
-main div.auth input {
-  display: block;
-  margin: 1em 0;
-  width: 100%;
 }
 
 ul.profileList {
@@ -316,7 +346,20 @@ ul.profileList {
 }
 
 dl dt {
+  margin: 1em 0 0.3em 0;
+  display: block;
   font-weight: bold;
+}
+
+figure {
+  margin-bottom: 2em;
+}
+
+figcaption {
+  font-size: 85%;
+  text-align: center;
+  font-style: italic;
+  padding: 1em;
 }
 
 svg.appUsage {
@@ -385,39 +428,39 @@ ul.appUsage li {
 }
 
 blockquote {
-    margin: 1em 0;
-    padding: 1em;
-    background-color: #ededed;
-    border-left: 0.2em solid #e24301;
-    border-radius: 0 0.5em 0.5em 0;
+  margin: 1em 0;
+  padding: 1em;
+  background-color: #ededed;
+  border-left: 0.2em solid #e24301;
+  border-radius: 0 0.5em 0.5em 0;
 }
 
 blockquote:lang(ar-MA) {
-    border-left: 0;
-    border-right: 0.2em solid #e24301;
-    border-radius: 0 0.5em 0.5em 0;
-    border-radius: 0.5em 0 0 0.5em;
+  border-left: 0;
+  border-right: 0.2em solid #e24301;
+  border-radius: 0 0.5em 0.5em 0;
+  border-radius: 0.5em 0 0 0.5em;
 }
 
 ul.apps {
-    list-style: none;
-    padding: 0;
-    text-align: center;
+  list-style: none;
+  padding: 0;
+  text-align: center;
 }
 
 ul.apps li {
-    display: inline-block;
-    padding: 2em;
+  display: inline-block;
+  padding: 2em;
 }
-    
+
 ul.apps li a {
-    display: block;
-    background-repeat: no-repeat;
-    background-size: 64px 64px;
-    background-position: 50% 0;
-    min-height: calc(64px + 2em);
-    padding: calc(64px + 0.5em) 0 0 0;
-    min-width: 64px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 64px 64px;
+  background-position: 50% 0;
+  min-height: calc(64px + 2em);
+  padding: calc(64px + 0.5em) 0 0 0;
+  min-width: 64px;
 }
 
 ul.apps li a.Windows {
@@ -446,4 +489,46 @@ p.lead {
   font-size: 150%;
   color: #e24301;
   font-style: italic;
+}
+
+table.stats {
+  margin: 2em auto 0 auto;
+  border-collapse: separate;
+  border-spacing: 3px 0;
+  width: 90%;
+}
+
+table.stats td, table.stats th {
+  width: 1em;
+  text-align: center;
+  line-height: 0.5;
+}
+
+table.stats tbody th span, table.stats tfoot th span {
+  writing-mode: vertical-rl;
+  font-weight: normal;
+  white-space: nowrap;
+  line-height: 1em;
+  padding-top: 0.5em;
+  font-size: 85%;
+}
+
+table.stats tbody th span {
+  writing-mode: vertical-rl;
+}
+
+table.stats tbody td:not(:empty) {
+  background-color: #9a2e00;
+  color: transparent;
+}
+
+table.stats th.index {
+  box-sizing: content-box;
+  vertical-align: top;
+  padding: 0 0.5em;
+  border-top: 1px solid #888;
+}
+
+table.stats th.index span {
+  font-weight: bold;
 }
