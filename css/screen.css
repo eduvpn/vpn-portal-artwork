@@ -96,29 +96,50 @@ button, summary {
 }
 
 header {
+  text-align: end;
+  padding: 0 1em;
   background-color: #222;
+}
+
+header ul.languageSwitcher {
+  margin: 0.25em 1em;
+  display: inline-block;
+}
+
+header ul.languageSwitcher li {
+  display: inline-block;
+}
+
+header ul.languageSwitcher button, header form.logout button {
+  border: 0;
+  color: #fff;
+  background-color: #222;
+  padding: 0.5em 0.5em;
+}
+
+header ul.languageSwitcher button:hover, header form.logout button:hover {
+  background-color: #4e4e4e;
+  border-radius: 2em;
+  text-decoration: underline;
 }
 
 header form.logout {
   display: inline;
-  margin: 0;
+  margin: 0 1em;
 }
 
 header form.logout button {
-  color: #fff;
-  background-color: #222;
-  border: 0;
   font-weight: bold;
-  padding: 0 0 0 0.5em;
 }
 
 nav {
+  text-align: end;
   background-color: #fff;
   background-image: url("../../img/eduVPN/logo.png");
   background-repeat: no-repeat;
   background-size: 169px 50px;
   background-position: 2% 50%;
-  padding: 1em 0 1em 15em;
+  padding: 1em 0.5em 1em 169px;
   min-height: calc(50px + 2em);
 }
 
@@ -128,18 +149,18 @@ nav:lang(ar-MA) {
 }
 
 nav ul {
-  margin: 0 auto;
+  margin: 0;
   display: inline-block;
 }
 
 nav ul li {
   display: inline-block;
   padding: 0;
-  margin: 1em;
+  margin: 1.5em 0;
 }
 
 nav ul li a {
-  padding-bottom: 0.5em;
+  padding: 1em 1.5em;
   color: #216aed;
   font-weight: bold;
 }
@@ -151,29 +172,13 @@ nav ul li.active a {
 }
 
 nav ul li a:hover {
-  text-decoration: none;
-  color: #216aed;
+  background-color: #ededed;
+  border-radius: 2em;
 }
 
-header {
-  text-align: end;
-  padding: 0 1em;
-}
-
-header ul.languageSwitcher {
-  margin: 0 1em;
-  display: inline-block;
-}
-
-header ul.languageSwitcher li {
-  display: inline-block;
-}
-
-header ul.languageSwitcher button {
-  border: 0;
-  color: #fff;
-  background-color: #222;
-  padding: 0.5em;
+nav ul li.active a:hover {
+  border-radius: 0;
+  background-color: #fff;
 }
 
 footer {
@@ -218,14 +223,9 @@ form.frm select, form.frm input[type=text], form.frm input[type=password], form.
   border-radius: 0.5em;
   padding: 0.5em;
   display: block;
-  margin: 0.5em 0;
+  margin: 0.75em 0 0 0;
 }
 
-/*main div.auth input {*/
-/*  display: block;*/
-/*  margin: 1em 0;*/
-/*  width: 100%;*/
-/*}*/
 fieldset {
   border: 0;
   margin: 0;
@@ -279,8 +279,7 @@ main h1 {
 }
 
 main div.content h1 {
-  /* hide the h1 in the div.content for now until it is removed from the 
-       templates... */
+  /* hide the h1 in the div.content for now until it is removed from the templates... */
   display: none;
 }
 
