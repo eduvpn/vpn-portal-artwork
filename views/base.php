@@ -5,8 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>eduVPN - <?=$this->e($pageTitle); ?></title>
-    <link href="<?=$this->e($requestRoot); ?>css/bootstrap-reboot.min.css" media="screen" rel="stylesheet">
-    <link href="<?=$this->e($requestRoot); ?>css/screen.css" media="screen" rel="stylesheet">
     <link href="<?=$this->e($requestRoot); ?>css/eduVPN/screen.css" media="screen" rel="stylesheet">
 </head>
 <body>

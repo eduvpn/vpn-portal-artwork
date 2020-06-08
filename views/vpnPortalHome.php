@@ -1,7 +1,7 @@
 <?php $this->layout('base', ['activeItem' => 'home', 'pageTitle' => $this->t('Home')]); ?>
 <?php $this->start('content'); ?>
 <?php if ($motdMessage): ?>
-    <p class="plain"><?=$this->batch($motdMessage['message'], 'escape|nl2br'); ?></p>
+<blockquote><?=$this->batch($motdMessage['message'], 'escape|nl2br'); ?></blockquote>
 <?php endif; ?>
 <p class="banner"><?=$this->t('Welcome to eduVPN!'); ?></p>
 <p>
