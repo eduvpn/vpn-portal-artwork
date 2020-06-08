@@ -436,6 +436,10 @@ ul.apps li a.iOS {
   background-image: url("../../img/eduVPN/app/iOS.png");
 }
 
+ul.apps li a.Linux {
+  background-image: url("../../img/eduVPN/app/Linux.png");
+}
+
 p.lead {
   text-align: center;
   padding: 0.5em;

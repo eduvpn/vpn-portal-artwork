@@ -10,19 +10,23 @@
 
 <ul class="apps">
     <li>
-        <a class="Windows" href="https://app.eduvpn.org/windows/eduVPNClient_latest.exe"><?=$this->t('Windows'); ?></a>
+        <a target="_blank" class="Windows" href="https://app.eduvpn.org/windows/eduVPNClient_latest.exe"><?=$this->t('Windows'); ?></a>
     </li>
 
     <li>
-        <a class="macOS" href="https://apps.apple.com/app/eduvpn-client/id1317704208"><?=$this->t('macOS'); ?></a>
+        <a target="_blank" class="macOS" href="https://apps.apple.com/app/eduvpn-client/id1317704208"><?=$this->t('macOS'); ?></a>
     </li>
 
     <li>
-        <a class="Android" href="https://play.google.com/store/apps/details?id=nl.eduvpn.app"><?=$this->t('Android'); ?></a>
+        <a target="_blank" class="Android" href="https://play.google.com/store/apps/details?id=nl.eduvpn.app"><?=$this->t('Android'); ?></a>
     </li>
 
     <li>
-        <a class="iOS" href="https://apps.apple.com/app/eduvpn-client/id1292557340"><?=$this->t('iOS'); ?></a>
+        <a target="_blank" class="iOS" href="https://apps.apple.com/app/eduvpn-client/id1292557340"><?=$this->t('iOS'); ?></a>
+    </li>
+
+    <li>
+        <a target="_blank" class="Linux" href="https://python-eduvpn-client.readthedocs.io/"><?=$this->t('Linux'); ?></a>
     </li>
 </ul>
 
