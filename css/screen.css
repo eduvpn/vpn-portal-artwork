@@ -222,10 +222,6 @@ main h1 {
   margin: 0;
 }
 
-main div.content {
-  min-height: 75vh;
-}
-
 main div.content h1 {
   /* hide the h1 in the div.content for now until it is removed from the 
        templates... */
@@ -233,9 +229,10 @@ main div.content h1 {
 }
 
 main div.content {
+  min-height: 75vh;
   max-width: 60em;
   border-radius: 1em 1em 0 0;
-  padding: 1em;
+  padding: 3em 7em;
   margin: -5em auto 0 auto;
   background-color: #fff;
 }
@@ -391,6 +388,58 @@ blockquote {
     margin: 1em 0;
     padding: 1em;
     background-color: #ededed;
-    border-left: 0.4em solid #e24301;
+    border-left: 0.2em solid #e24301;
     border-radius: 0 0.5em 0.5em 0;
+}
+
+blockquote:lang(ar-MA) {
+    border-left: 0;
+    border-right: 0.2em solid #e24301;
+    border-radius: 0 0.5em 0.5em 0;
+    border-radius: 0.5em 0 0 0.5em;
+}
+
+ul.apps {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul.apps li {
+    display: inline-block;
+    padding: 2em;
+}
+    
+ul.apps li a {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 64px 64px;
+    background-position: 50% 0;
+    min-height: calc(64px + 2em);
+    padding: calc(64px + 0.5em) 0 0 0;
+    min-width: 64px;
+}
+
+ul.apps li a.Windows {
+  background-image: url("../../img/eduVPN/app/Windows.png");
+}
+
+ul.apps li a.macOS {
+  background-image: url("../../img/eduVPN/app/macOS.png");
+}
+
+ul.apps li a.Android {
+  background-image: url("../../img/eduVPN/app/Android.png");
+}
+
+ul.apps li a.iOS {
+  background-image: url("../../img/eduVPN/app/iOS.png");
+}
+
+p.lead {
+  text-align: center;
+  padding: 0.5em;
+  font-size: 150%;
+  color: #e24301;
+  font-style: italic;
 }
