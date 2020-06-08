@@ -125,7 +125,7 @@ header ul.languageSwitcher button:hover, header form.logout button:hover {
 
 header form.logout {
   display: inline;
-  margin: 0 1em;
+  margin: 0 0.5em;
 }
 
 header form.logout button {
