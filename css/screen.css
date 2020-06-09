@@ -439,7 +439,7 @@ ul.apps li {
   padding: 2em;
 }
 
-ul.apps li a {
+ul.apps li a, span.Windows, span.macOS, span.Android, span.iOS, span.Linux {
   display: block;
   background-repeat: no-repeat;
   background-size: 64px 64px;
@@ -449,24 +449,30 @@ ul.apps li a {
   min-width: 64px;
 }
 
-ul.apps li a.Windows {
+ul.apps li a.Windows, span.Windows {
   background-image: url("../../img/eduVPN/app/Windows.png");
 }
 
-ul.apps li a.macOS {
+ul.apps li a.macOS, span.macOS {
   background-image: url("../../img/eduVPN/app/macOS.png");
 }
 
-ul.apps li a.Android {
+ul.apps li a.Android, span.Android {
   background-image: url("../../img/eduVPN/app/Android.png");
 }
 
-ul.apps li a.iOS {
+ul.apps li a.iOS, span.iOS {
   background-image: url("../../img/eduVPN/app/iOS.png");
 }
 
-ul.apps li a.Linux {
+ul.apps li a.Linux, span.Linux {
   background-image: url("../../img/eduVPN/app/Linux.png");
+}
+
+span.Windows, span.macOS, span.Android, span.iOS, span.Linux {
+  margin: 2em;
+  text-align: center;
+  font-weight: bold;
 }
 
 p.lead {
