@@ -125,14 +125,13 @@ header form.logout button {
 }
 
 nav {
-  text-align: end;
+  text-align: center;
   background-color: #fff;
   background-image: url("../../img/eduVPN/logo.png");
   background-repeat: no-repeat;
   background-size: 169px 50px;
-  background-position: 2% 50%;
-  padding: 1em 0.5em 1em 169px;
-  min-height: calc(50px + 2em);
+  background-position: 50% 1em;
+  padding: calc(50px + 1em) 0 0 0;
 }
 
 nav:lang(ar-MA) {
@@ -274,7 +273,7 @@ main div.content {
   min-height: 75vh;
   max-width: 60em;
   border-radius: 1em 1em 0 0;
-  padding: 3em 7em;
+  padding: 3em 1em;
   margin: -5em auto 0 auto;
   background-color: #fff;
 }
@@ -522,4 +521,16 @@ table.stats th.index {
 
 table.stats th.index span {
   font-weight: bold;
+}
+
+@media screen and (min-width: 800px) {
+  main div.content {
+    padding: 3em 7em;
+  }
+  nav {
+    text-align: end;
+    background-position: 2% 50%;
+    padding: 1em 0.5em 1em 169px;
+    min-height: calc(50px + 2em);
+  }
 }
