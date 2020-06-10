@@ -6,6 +6,10 @@
 <?=$this->t('An application attempts to establish a VPN connection.'); ?>
     </p>
 
+	<p class="warning">
+<?=$this->t('Only approve this when you are trying to establish a VPN connection with this application!'); ?>
+	</p>
+
 <?php if ('org.eduvpn.app.windows' === $client_id || 'org.letsconnect-vpn.app.windows' === $client_id): ?>
     <span class="Windows"><?=$this->e($display_name); ?></span>
 <?php elseif ('org.eduvpn.app.macos' === $client_id || 'org.letsconnect-vpn.app.macos' === $client_id): ?>
@@ -26,9 +30,11 @@
     </p>
 <?php endif; ?>
 
-	<p class="warning">
-<?=$this->t('Only approve this when you are trying to establish a VPN connection with this application!'); ?>
-	</p>
+    <form class="frm" method="post">
+        <fieldset>
+            <button type="submit" name="approve" value="yes"><?=$this->t('Approve Application'); ?></button>
+        </fieldset>
+    </form>
 
     <details>
         <summary>
@@ -38,10 +44,4 @@
 <?=$this->t('To prevent malicious applications from secretly establishing a VPN connection on your behalf, you have to explicitly approve this application first.'); ?>
         </p>
     </details>
-
-    <form class="frm" method="post">
-        <fieldset>
-            <button type="submit" name="approve" value="yes"><?=$this->t('Approve Application'); ?></button>
-        </fieldset>
-    </form>
 <?php $this->stop('content'); ?>
