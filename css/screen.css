@@ -320,6 +320,11 @@ main div.auth {
   max-width: 20em;
 }
 
+main div.appAuth {
+  margin: 0 auto;
+  max-width: 30em;
+}
+
 ul.profileList {
   list-style: none;
   padding: 0;
@@ -435,7 +440,7 @@ ul.apps li {
   padding: 2em;
 }
 
-ul.apps li a, span.Windows, span.macOS, span.Android, span.iOS, span.Linux {
+ul.apps li a {
   display: block;
   background-repeat: no-repeat;
   background-size: 64px 64px;
@@ -443,6 +448,35 @@ ul.apps li a, span.Windows, span.macOS, span.Android, span.iOS, span.Linux {
   min-height: calc(64px + 2em);
   padding: calc(64px + 0.5em) 0 0 0;
   min-width: 64px;
+}
+
+div.appApproval {
+  border: 1px solid #979797;
+  display: flex;
+  align-items: center;
+  padding: 1em 0;
+  justify-content: space-evenly;
+  border-radius: 0.5em;
+  flex-wrap: wrap;
+  margin: 1em 0;
+}
+
+div.appApproval span {
+  font-size: 24px;
+  color: #000;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 64px 64px;
+  background-position: 0 50%;
+  min-height: 64px;
+  line-height: 64px;
+  padding-left: calc(64px + 0.5em);
+  font-weight: bold;
+}
+
+div.appApproval form.frm {
+  display: inline-block;
+  width: initial;
 }
 
 ul.apps li a.Windows, span.Windows {
@@ -463,12 +497,6 @@ ul.apps li a.iOS, span.iOS {
 
 ul.apps li a.Linux, span.Linux {
   background-image: url("../../img/eduVPN/app/Linux.png");
-}
-
-span.Windows, span.macOS, span.Android, span.iOS, span.Linux {
-  margin: 2em;
-  text-align: center;
-  font-weight: bold;
 }
 
 p.lead {
