@@ -91,6 +91,7 @@ header {
   text-align: end;
   padding: 0 1em;
   background-color: #222;
+  font-size: 90%;
 }
 
 header ul.languageSwitcher {
@@ -197,6 +198,7 @@ form.frm button {
   background-color: #216aed;
   padding: 0.5em 1.5em;
   font-weight: bold;
+  font-size: 110%;
 }
 
 form.frm button.warning {
@@ -287,6 +289,7 @@ span.plain, span.success, span.error {
   padding: 0.5em;
   border-radius: 0.5em;
   font-weight: bold;
+  font-size: 110%;
   display: inline-block;
 }
 
@@ -451,7 +454,7 @@ ul.apps li a {
 }
 
 div.appApproval {
-  border: 1px solid #979797;
+  background-color: #ededed;
   display: flex;
   align-items: center;
   padding: 1em 0;
@@ -462,7 +465,7 @@ div.appApproval {
 }
 
 div.appApproval span {
-  font-size: 24px;
+  font-size: 125%;
   color: #000;
   display: inline-block;
   background-repeat: no-repeat;
