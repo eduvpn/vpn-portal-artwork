@@ -94,7 +94,7 @@ header {
 }
 
 header ul.languageSwitcher {
-  margin: 0.25em 0.5em;
+  margin: 0 0.5em;
   display: inline-block;
 }
 
@@ -116,11 +116,12 @@ header ul.languageSwitcher button:hover, header form.logout button:hover {
 }
 
 header form.logout {
-  display: inline;
+  display: inline-block;
   margin: 0 0.5em;
 }
 
 header form.logout button {
+  margin: 0.25em;
   font-weight: bold;
 }
 
@@ -136,6 +137,7 @@ nav {
 
 nav ul {
   margin: 0;
+  padding: 0;
   display: inline-block;
 }
 
@@ -255,8 +257,8 @@ main h1 {
   background-color: #e24301;
   color: #fff;
   text-align: center;
-  padding: 1em 0 3em 0;
-  margin-top: 0;
+  padding: 0.75em 0;
+  margin: 0;
 }
 
 main div.content h1 {
@@ -267,10 +269,8 @@ main div.content h1 {
 main div.content {
   min-height: 75vh;
   max-width: 60em;
-  border-radius: 1em 1em 0 0;
-  padding: 3em 1em;
-  margin: -5em auto 0 auto;
   background-color: #fff;
+  padding: 1em;
 }
 
 p.warning, p.error, p.plain {
@@ -355,7 +355,7 @@ ul.appUsage {
 
 ul.appUsage li {
   display: inline-block;
-  margin: 0.5em;
+  margin: 0;
 }
 
 .pieLegend {
@@ -363,6 +363,8 @@ ul.appUsage li {
   font-weight: bold;
   padding: 0.5em;
   margin: 0.5em;
+  display: inline-block;
+  border-radius: 1em;
 }
 
 /* @see https://learnui.design/tools/data-color-picker.html#palette */
@@ -407,7 +409,7 @@ ul.appUsage li {
 }
 
 blockquote {
-  margin-left: 0;
+  margin: 0;
   padding: 1em;
   background-color: #ededed;
   border-left: 0.2em solid #e24301;
@@ -520,7 +522,12 @@ table.stats th.index span {
 
 @media screen and (min-width: 800px) {
   main div.content {
+    margin: -5em auto 0 auto;
     padding: 3em 7em;
+    border-radius: 1em 1em 0 0;
+  }
+  main h1 {
+    padding: 1em 0 3em 0;
   }
   nav {
     text-align: end;
