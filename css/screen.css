@@ -532,7 +532,7 @@ table.stats th.index span {
   nav {
     text-align: end;
     background-position: 2% 50%;
-    padding: 1em 0.5em 1em 169px;
+    padding: 1em 0.5em 1em calc(169px + 2em);
     min-height: calc(50px + 2em);
   }
   nav:lang(ar-MA) {
