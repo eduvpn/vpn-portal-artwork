@@ -13,9 +13,9 @@
 
     <div class="appApproval">
 <?php if (null === $display_name): ?>
-        <span class="<?=$this->e($client_id);?>"><?=$this->e($client_id); ?></span>
+        <span class="<?=$this->e($client_id); ?>"><?=$this->e($client_id); ?></span>
 <?php else: ?>
-        <span class="<?=$this->e($client_id);?>"><?=$this->e($display_name); ?></span>
+        <span class="<?=$this->e($client_id); ?>"><?=$this->e($display_name); ?></span>
 <?php endif; ?>
         <form class="frm" method="post">
             <fieldset>
