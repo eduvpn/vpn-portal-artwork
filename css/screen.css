@@ -473,13 +473,22 @@ div.appApproval span {
   font-size: 125%;
   color: #000;
   display: inline-block;
+  background-image: url("../../img/eduVPN/unknown-icon.png");
   background-repeat: no-repeat;
   background-size: 64px 64px;
   background-position: 50% 0;
   min-height: 64px;
   text-align: center;
-  padding: calc(64px + 0.5em) 1em 0.5em 0.5em;
+  padding: calc(64px + 0.5em) 0.5em 0.5em 0.5em;
   font-weight: bold;
+}
+
+div.appApproval span.org\.letsconnect-vpn\.app\.windows, span.org\.letsconnect-vpn\.app\.macos, span.org\.letsconnect-vpn\.app\.android, span.org\.letsconnect-vpn\.app\.ios, span.org\.letsconnect-vpn\.app\.linux {
+  background-image: url("../../img/eduVPN/LC-icon.png");
+}
+
+div.appApproval span.org\.eduvpn\.app\.windows, span.org\.eduvpn\.app\.macos, span.org\.eduvpn\.app\.android, span.org\.eduvpn\.app\.ios, span.org\.eduvpn\.app\.linux {
+  background-image: url("../../img/eduVPN/eduVPN-icon.png");
 }
 
 div.appApproval form.frm {
@@ -488,23 +497,23 @@ div.appApproval form.frm {
   padding: 0.5em;
 }
 
-ul.apps li a.Windows, span.Windows {
+ul.apps li a.Windows {
   background-image: url("../../img/eduVPN/app/Windows.png");
 }
 
-ul.apps li a.macOS, span.macOS {
+ul.apps li a.macOS {
   background-image: url("../../img/eduVPN/app/macOS.png");
 }
 
-ul.apps li a.Android, span.Android {
+ul.apps li a.Android {
   background-image: url("../../img/eduVPN/app/Android.png");
 }
 
-ul.apps li a.iOS, span.iOS {
+ul.apps li a.iOS {
   background-image: url("../../img/eduVPN/app/iOS.png");
 }
 
-ul.apps li a.Linux, span.Linux {
+ul.apps li a.Linux {
   background-image: url("../../img/eduVPN/app/Linux.png");
 }
 
