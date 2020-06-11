@@ -476,10 +476,10 @@ div.appApproval span {
   background-image: url("../../img/eduVPN/unknown-icon.png");
   background-repeat: no-repeat;
   background-size: 64px 64px;
-  background-position: 50% 0;
+  background-position: 50% 1em;
   min-height: 64px;
   text-align: center;
-  padding: calc(64px + 0.5em) 0.5em 0.5em 0.5em;
+  padding: calc(64px + 1.5em) 0.5em 1em 0.5em;
   font-weight: bold;
 }
 
