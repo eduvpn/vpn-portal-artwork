@@ -483,11 +483,11 @@ div.appApproval span {
   font-weight: bold;
 }
 
-div.appApproval span.org\.letsconnect-vpn\.app\.windows, span.org\.letsconnect-vpn\.app\.macos, span.org\.letsconnect-vpn\.app\.android, span.org\.letsconnect-vpn\.app\.ios, span.org\.letsconnect-vpn\.app\.linux {
+div.appApproval span.org\.letsconnect-vpn\.app\.windows, div.appApproval span.org\.letsconnect-vpn\.app\.macos, div.appApproval span.org\.letsconnect-vpn\.app\.android, div.appApproval span.org\.letsconnect-vpn\.app\.ios, div.appApproval span.org\.letsconnect-vpn\.app\.linux {
   background-image: url("../../img/eduVPN/LC-icon.png");
 }
 
-div.appApproval span.org\.eduvpn\.app\.windows, span.org\.eduvpn\.app\.macos, span.org\.eduvpn\.app\.android, span.org\.eduvpn\.app\.ios, span.org\.eduvpn\.app\.linux {
+div.appApproval span.org\.eduvpn\.app\.windows, div.appApproval span.org\.eduvpn\.app\.macos, div.appApproval span.org\.eduvpn\.app\.android, div.appApproval span.org\.eduvpn\.app\.ios, div.appApproval span.org\.eduvpn\.app\.linux {
   background-image: url("../../img/eduVPN/eduVPN-icon.png");
 }
 
