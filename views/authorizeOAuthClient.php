@@ -15,7 +15,7 @@
 <?php if ('org.eduvpn.app.windows' === $client_id || 'org.letsconnect-vpn.app.windows' === $client_id): ?>
         <span class="Windows"><?=$this->e($display_name); ?></span>
 <?php elseif ('org.eduvpn.app.macos' === $client_id || 'org.letsconnect-vpn.app.macos' === $client_id): ?>
-        <span class="macOS"><?=$this->e($display_name); ?></span>
+        <span class="macOS"><?=$this->e($display_name); ?> with a super long name!</span>
 <?php elseif ('org.eduvpn.app.android' === $client_id || 'org.letsconnect-vpn.app.android' === $client_id): ?>
         <span class="Android"><?=$this->e($display_name); ?></span>
 <?php elseif ('org.eduvpn.app.ios' === $client_id || 'org.letsconnect-vpn.app.ios' === $client_id): ?>
