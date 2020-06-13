@@ -32,7 +32,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   background-color: #ededed;
   margin: 0;
   padding: 0;
@@ -127,19 +127,19 @@ header form.logout button {
 }
 
 nav {
-  text-align: center;
   background-color: #fff;
   background-image: url("../../img/eduVPN/logo.png");
   background-repeat: no-repeat;
-  background-size: 169px 50px;
   background-position: 50% 1em;
-  padding: calc(50px + 2em) 0 0 0;
+  text-align: center;
+  min-height: calc(50px + 2em);
 }
 
 nav ul {
-  margin: 0;
-  padding: 0;
-  display: inline-block;
+  margin: 0 auto;
+  padding: calc(50px + 1.5em) 0 0 0;
+  max-width: 60rem;
+  display: block;
 }
 
 nav ul li {
@@ -157,7 +157,7 @@ nav ul li a {
 nav ul li.active a {
   color: #216aed;
   font-weight: bold;
-  border-bottom: 4px solid #216aed;
+  border-bottom: 5px solid #216aed;
 }
 
 nav ul li a:hover {
@@ -275,7 +275,7 @@ main div.content h1 {
 
 main div.content {
   min-height: 75vh;
-  max-width: 55rem;
+  max-width: 60rem;
   background-color: #fff;
   padding: 0.5em 1em;
 }
@@ -519,8 +519,8 @@ ul.apps li a.Linux {
 
 p.lead {
   text-align: center;
-  padding: 0.5em;
-  font-size: 150%;
+  padding: 0em;
+  font-size: 1.75rem;
   color: #e24301;
   font-style: italic;
 }
@@ -569,17 +569,17 @@ table.stats th.index span {
 @media screen and (min-width: 800px) {
   main div.content {
     margin: -3em auto 0 auto;
-    padding: 3em 7em;
+    padding: 3em 5em;
     border-radius: 1em 1em 0 0;
   }
   main h1 {
     padding: 1em 0 2em 0;
   }
   nav {
-    text-align: end;
-    background-position: 2% 50%;
-    padding: 1em 0.5em 1em calc(169px + 2em);
-    min-height: calc(50px + 2em);
+    background-position: 1em 50%;
+  }
+  nav ul {
+    padding: 0;
   }
   nav:lang(ar-MA) {
     background-position: 98% 50%;
