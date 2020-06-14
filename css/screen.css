@@ -63,6 +63,14 @@ h1, h2, h3, h4 {
   line-height: 1.25;
 }
 
+details {
+  margin: 0.5em 0;
+}
+
+summary {
+  margin: 1em 0;
+}
+
 a, summary {
   color: #216aed;
   font-weight: bold;
