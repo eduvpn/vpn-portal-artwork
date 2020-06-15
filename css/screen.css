@@ -491,11 +491,11 @@ div.appApproval span {
   font-weight: bold;
 }
 
-div.appApproval span.org\.letsconnect-vpn\.app\.windows, div.appApproval span.org\.letsconnect-vpn\.app\.macos, div.appApproval span.org\.letsconnect-vpn\.app\.android, div.appApproval span.org\.letsconnect-vpn\.app\.ios, div.appApproval span.org\.letsconnect-vpn\.app\.linux {
+div.appApproval span[class^="org.letsconnect-vpn.app"] {
   background-image: url("../../img/eduVPN/LC-icon.png");
 }
 
-div.appApproval span.org\.eduvpn\.app\.windows, div.appApproval span.org\.eduvpn\.app\.macos, div.appApproval span.org\.eduvpn\.app\.android, div.appApproval span.org\.eduvpn\.app\.ios, div.appApproval span.org\.eduvpn\.app\.linux {
+div.appApproval span[class^="org.eduvpn.app"] {
   background-image: url("../../img/eduVPN/eduVPN-icon.png");
 }
 
