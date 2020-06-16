@@ -95,41 +95,41 @@ button, summary {
   cursor: pointer;
 }
 
-header {
+header.page {
   text-align: end;
   padding: 0 1em;
   background-color: #222;
   font-size: 90%;
 }
 
-header ul.languageSwitcher {
+header.page ul.languageSwitcher {
   margin: 0 0.5em;
   display: inline-block;
 }
 
-header ul.languageSwitcher li {
+header.page ul.languageSwitcher li {
   display: inline-block;
 }
 
-header ul.languageSwitcher button, header form.logout button {
+header.page ul.languageSwitcher button, header.page form.logout button {
   border: 0;
   color: #fff;
   background-color: #222;
   padding: 0.5em 0.5em;
 }
 
-header ul.languageSwitcher button:hover, header form.logout button:hover {
+header.page ul.languageSwitcher button:hover, header.page form.logout button:hover {
   background-color: #4e4e4e;
   border-radius: 2em;
   text-decoration: underline;
 }
 
-header form.logout {
+header.page form.logout {
   display: inline-block;
   margin: 0 0.5em;
 }
 
-header form.logout button {
+header.page form.logout button {
   margin: 0.25em;
   font-weight: bold;
 }
@@ -268,24 +268,19 @@ table.tbl form.frm button {
   margin: 0;
 }
 
-main h1 {
-  background-color: #e24301;
-  color: #fff;
-  text-align: center;
-  padding: 0.75em 0;
-  margin: 0;
-}
-
-main div.content h1 {
-  /* hide the h1 in the div.content for now until it is removed from the templates... */
-  display: none;
-}
-
-main div.content {
+main {
   min-height: 75vh;
   max-width: 60rem;
   background-color: #fff;
   padding: 0.5em 1em;
+}
+
+header.main h1 {
+  background-color: #e24301;
+  color: #fff;
+  text-align: center;
+  padding: 0.75em;
+  margin: 0;
 }
 
 p.warning, p.error, p.plain {
@@ -466,45 +461,6 @@ ul.apps li a {
   min-width: 64px;
 }
 
-div.appApproval {
-  background-color: #ededed;
-  display: flex;
-  align-items: center;
-  padding: 1em 0;
-  justify-content: space-evenly;
-  border-radius: 0.5em;
-  flex-wrap: wrap;
-  margin: 1em 0;
-}
-
-div.appApproval span {
-  font-size: 1.25rem;
-  color: #000;
-  display: inline-block;
-  background-image: url("../../img/eduVPN/unknown-icon.png");
-  background-repeat: no-repeat;
-  background-size: 64px 64px;
-  background-position: 50% 1em;
-  min-height: 64px;
-  text-align: center;
-  padding: calc(64px + 1.5em) 0.5em 1em 0.5em;
-  font-weight: bold;
-}
-
-div.appApproval span[class^="org.letsconnect-vpn.app"] {
-  background-image: url("../../img/eduVPN/LC-icon.png");
-}
-
-div.appApproval span[class^="org.eduvpn.app"] {
-  background-image: url("../../img/eduVPN/eduVPN-icon.png");
-}
-
-div.appApproval form.frm {
-  display: inline-block;
-  width: initial;
-  padding: 0.5em;
-}
-
 ul.apps li a.Windows {
   background-image: url("../../img/eduVPN/app/Windows.png");
 }
@@ -523,6 +479,45 @@ ul.apps li a.iOS {
 
 ul.apps li a.Linux {
   background-image: url("../../img/eduVPN/app/Linux.png");
+}
+
+div.appApproval {
+  background-color: #ededed;
+  display: flex;
+  align-items: center;
+  padding: 1em 0;
+  justify-content: space-evenly;
+  border-radius: 0.5em;
+  flex-wrap: wrap;
+  margin: 1em 0;
+}
+
+div.appApproval span {
+  font-size: 1.25rem;
+  color: #000;
+  display: inline-block;
+  background-image: url("../../img/icon-Unknown.png");
+  background-repeat: no-repeat;
+  background-size: 64px 64px;
+  background-position: 50% 1em;
+  min-height: 64px;
+  text-align: center;
+  padding: calc(64px + 1.5em) 0.5em 1em 0.5em;
+  font-weight: bold;
+}
+
+div.appApproval span[class^="org.letsconnect-vpn.app"] {
+  background-image: url("../../img/icon-LC.png");
+}
+
+div.appApproval span[class^="org.eduvpn.app"] {
+  background-image: url("../../img/icon-eduVPN.png");
+}
+
+div.appApproval form.frm {
+  display: inline-block;
+  width: initial;
+  padding: 0.5em;
 }
 
 p.lead {
@@ -575,22 +570,21 @@ table.stats th.index span {
 }
 
 @media screen and (min-width: 800px) {
-  main div.content {
+  main {
     margin: -3em auto 0 auto;
     padding: 3em 5em;
     border-radius: 1em 1em 0 0;
   }
-  main h1 {
-    padding: 1em 0 2em 0;
+  header.main h1 {
+    padding: 0.75em 0 2em 0;
   }
   nav {
-    background-position: 1em 50%;
+    background-position: 2% 50%;
   }
   nav ul {
     padding: 0;
   }
   nav:lang(ar-MA) {
     background-position: 98% 50%;
-    padding: 1em 15em 1em 0;
   }
 }

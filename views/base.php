@@ -8,23 +8,21 @@
     <link href="<?=$this->getCssUrl($requestRoot, 'eduVPN/screen.css'); ?>" media="screen" rel="stylesheet">
 </head>
 <body>
-    <header>			
+    <header class="page">			
         <?=$this->insert('languageSwitcher'); ?>
         <?=$this->insert('logoutButton'); ?>
     </header>
-    <div class="page">
-        <nav>
+    <nav>
 <?php if (isset($activeItem)): ?>
             <?=$this->insert('menu', ['activeItem' => $activeItem]); ?>
 <?php endif; ?>
-        </nav>
-        <main>
-            <h1><?=$this->e($pageTitle); ?></h1>
-            <div class="content">
-                <?=$this->section('content'); ?>
-            </div>
-        </main>
-    </div> <!-- /page -->
+    </nav>
+    <header class="main">
+        <h1><?=$this->e($pageTitle); ?></h1>
+    </header>
+    <main>
+<?=$this->section('content'); ?>
+    </main>
     <footer>
 <?php if ($this->exists('customFooter')): ?>
     <?=$this->insert('customFooter'); ?>
