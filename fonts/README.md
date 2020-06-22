@@ -57,6 +57,12 @@ font installed on their system, no need to download it in that case!
         font-style: italic;
     }
 
+    body {
+        font-family: "Open Sans", sans-serif;
+    }
+
+    /* ... */
+
 # Resources
 
 As always, 
