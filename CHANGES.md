@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.2.0 (2020-06-29)
+- implement new design
+
 ## 2.1.4 (2020-04-11)
 - add Portuguese translation
 - remove GEANT contact info from Documentation page
