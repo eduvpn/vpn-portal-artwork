@@ -6,6 +6,7 @@
 - add `pl_PL` translation
 - add `uk_UA` translation
 - add `fr_FR` translation
+- update `ar_MA` translation
 
 ## 2.2.0 (2020-06-29)
 - implement new design
