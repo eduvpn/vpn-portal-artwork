@@ -32,6 +32,7 @@ body {
 
 nav {
   background-image: url("../../img/eduVPN/logo.png");
+  background-size: 169px 50px;
   background-repeat: no-repeat;
   background-position: 50% 1em;
 }
