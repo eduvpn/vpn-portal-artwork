@@ -105,6 +105,6 @@ p.lead {
     background-position: 98% 50%;
   }
   nav ul {
-    padding: 0;
+    padding: 0 calc(169px + 2em);
   }
 }
