@@ -1,12 +1,14 @@
 # Changelog
 
-## 2.2.1 (...)
+## 2.2.1 (2020-07-10)
 - update `de_DE` translation
 - add `nb_NO` translation
 - add `pl_PL` translation
 - add `uk_UA` translation
 - add `fr_FR` translation
 - update `ar_MA` translation
+- update icons to look better on high resolution screens
+- prevent menu from flowing over the logo
 
 ## 2.2.0 (2020-06-29)
 - implement new design
