@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.2.2 (2020-07-27)
+- small fix for base theme update
+
 ## 2.2.1 (2020-07-10)
 - update `de_DE` translation
 - add `nb_NO` translation
