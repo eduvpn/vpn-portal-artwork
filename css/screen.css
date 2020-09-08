@@ -36,7 +36,7 @@ nav {
   background-repeat: no-repeat;
   background-position: 50% 1em;
   min-height: calc(50px + 2em);
-  padding: 1em 0;
+  padding: 0;
 }
 
 nav ul {
