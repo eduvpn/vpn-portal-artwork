@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.3 (2020-09-08)
+- reduce padding of <nav>
+- fix CSS cache busting
+
 ## 2.2.2 (2020-07-27)
 - small fix for base theme update
 
