@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.2.4 (...)
+- show portal version in footer when user is admin
+
 ## 2.2.3 (2020-09-08)
 - reduce padding of <nav>
 - fix CSS cache busting
