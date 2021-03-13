@@ -30,9 +30,6 @@
 <?php endif; ?>
         <p>
             Powered by <a target="_blank" href="https://www.eduvpn.org/">eduVPN</a>
-<?php if ($isAdmin): ?>
-            | v<?=$this->e($portalVersion);?>
-<?php endif; ?>
         </p>
     </footer>
 </body>
