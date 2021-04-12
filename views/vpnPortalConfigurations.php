@@ -6,7 +6,7 @@
             <?=$this->t('No VPN profiles are available for your account.'); ?>
         </p>
     <?php else: ?>
-		<p>		
+		<p>
         <?=$this->t('Manually create and download an OpenVPN configuration file for use in your OpenVPN client.'); ?>
 		</p>
 		<details>
@@ -41,7 +41,7 @@
         <h2><?=$this->t('Existing'); ?></h2>
         <table class="tbl">
             <thead>
-                <tr><th><?=$this->t('Name'); ?></th><th><?=$this->t('Expires'); ?> (<?=$this->e(date('T')); ?>)</th><th></th></tr> 
+                <tr><th><?=$this->t('Name'); ?></th><th><?=$this->t('Expires'); ?> (<?=$this->e(date('T')); ?>)</th><th></th></tr>
             </thead>
             <tbody>
             <?php foreach ($userCertificateList as $userCertificate): ?>
