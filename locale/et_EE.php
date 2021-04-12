@@ -23,5 +23,4 @@ return [
     //'Windows' => '',
     //'iOS' => '',
     //'macOS' => '',
-    // [DELETED] 'Download' => 'Lae alla',
 ];

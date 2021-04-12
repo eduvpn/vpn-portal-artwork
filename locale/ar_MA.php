@@ -23,5 +23,4 @@ return [
     'Windows' => 'Windows',
     'iOS' => 'iOS',
     'macOS' => 'macOS',
-    // [DELETED] 'Download' => 'تحميل',
 ];
