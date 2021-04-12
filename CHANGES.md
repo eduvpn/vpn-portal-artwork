@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.2.4 (2021-04-12)
+- add Spanish (Latin America) translation
+
 ## 2.2.3 (2020-09-08)
 - reduce padding of <nav>
 - fix CSS cache busting
