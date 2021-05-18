@@ -7,3 +7,4 @@
 * `pt_PT`: Raul Ferreira, Marco Teixeira (Universidade do Minho)
 * `nb_NO`: Jørn Åne de Jong (Uninett AS)
 * `es_LA`: Carlos Pedreros (Universidad de La Serena, Chile)
+* `ro_RO`: Vlăduț Butnaru (Gheorghe Asachi Technical University of Iaşi)
