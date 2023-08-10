@@ -8,3 +8,5 @@
 * `nb_NO`: Jørn Åne de Jong (Uninett AS)
 * `es_LA`: Carlos Pedreros (Universidad de La Serena, Chile)
 * `ro_RO`: Vlăduț Butnaru (Gheorghe Asachi Technical University of Iaşi)
+* `cs_CZ`: Roman Mariancik, Ivo Durnik, and Michal Drobny (ICS MUNI, Czech Republic)
+* `sk_SK`: Roman Mariancik, Ivo Durnik, and Michal Drobny (ICS MUNI, Czech Republic)
