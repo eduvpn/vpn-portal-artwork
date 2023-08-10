@@ -17,7 +17,7 @@ return [
     'Launch the eduVPN application and follow the instructions.' => 'Spusťte aplikaci eduVPN a postupujte podle pokynů.',
     'Linux' => 'Linux',
     'On the "Configurations" page, advanced users can manually download VPN configurations.' => 'Na stránce "Konfigurace" mohou pokročilí uživatelé manuálně stáhnout VPN konfigurace.',
-    'On your "Account" page you can block access to the VPN in case you lose a device.' => 'Na vaší stránce "Účet" můžete blokovat přístup k VPN v případě, že ztratíte zařízení.',
+    'On your "Account" page you can block access to the VPN in case you lose a device.' => 'Na stránce "Účet" můžete blokovat přístup k VPN v případě, že ztratíte zařízení.',
     'To use eduVPN, download the app for your device below!' => 'Pro použití eduVPN stáhněte aplikaci pro své zařízení níže!',
     'Welcome to eduVPN!' => 'Vítejte v eduVPN!',
     'Windows' => 'Windows',
