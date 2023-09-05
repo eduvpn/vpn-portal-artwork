@@ -10,7 +10,7 @@
 return [
     'Android' => 'Android',
     'Continue...' => 'Pokračovať...',
-    'Download and/or install the eduVPN application for your device as found on the "Home" page;' => 'Stiahnite a/alebo nainštalujte aplikáciu eduVPN pre vaše zariadenie, ako je uvedené na "Domovskej" stránke;',
+    'Download and/or install the eduVPN application for your device as found on the "Home" page;' => 'Stiahnite a/alebo nainštalujte aplikáciu eduVPN pre vaše zariadenie, podľa inštrukcií na "Domovskej" stránke;',
     'Getting Started' => 'Začíname',
     'If you have any problems or questions, please contact your institute.' => 'Ak máte nejaké problémy alebo otázky, obráťte sa na váš inštitút.',
     'In order to start using eduVPN, follow the steps below.' => 'Aby ste mohli začať používať eduVPN, postupujte podľa nižšie uvedených krokov.',
